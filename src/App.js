@@ -1,11 +1,13 @@
+import React from "react";
 import "./App.css";
-import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
 
 function App() {
   return (
     <div className="todo-app">
-      <TodoForm />
+      <h2 style={{ color: "white", marginBottom: 20 }}>
+        What's the plan for Today
+      </h2>
       <TodoList />
     </div>
   );
